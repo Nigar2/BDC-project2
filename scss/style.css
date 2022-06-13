@@ -1,0 +1,223 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+}
+
+#navbar {
+  margin-top: 2%;
+}
+
+#navbar .images {
+  height: 36px;
+  width: 107px;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 400px) {
+  #navbar .images {
+    padding-left: 120px;
+  }
+}
+
+#navbar .ulstyle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .ulstyle ul li {
+  list-style: none;
+}
+
+#navbar .ulstyle ul p {
+  padding: 0.8% 1.7%;
+  margin: 0;
+  border-radius: 15px;
+  background: #F3F3F3;
+}
+
+#navbar .ulstyle ul span {
+  background: #FFC700;
+  border-radius: 50%;
+  padding: 0.9% 1.5%;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #navbar .ulstyle {
+    display: none;
+  }
+}
+
+header .headbar {
+  margin: 2%;
+  padding: 20px 0;
+  background-color: #F3F3F3;
+  border-radius: 20px;
+}
+
+header .headbar .intertext .interyerp {
+  padding-top: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Gotham", sans-serif;
+  line-height: 60px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 500px) {
+  header .headbar .intertext .interyerp {
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
+header .headbar .bttntext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .headbar .bttntext button {
+  width: 215px;
+  height: 60px;
+  padding: 5px;
+  background-color: #FFC700;
+  font-family: "Gotham", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  line-height: 25px;
+  text-align: center;
+}
+
+header .headbar .bttntext button a {
+  text-decoration: none;
+  color: #262626;
+}
+
+header .headbar .bttntext .texts {
+  padding-left: 10px;
+}
+
+header .headbar .bttntext .texts .text15 {
+  margin: 0;
+  font-family: "Gotham", sans-serif;
+  opacity: .7;
+}
+
+header .headbar .bttntext .texts .text30 {
+  margin: 0;
+  font-family: "Gotham", sans-serif;
+  font-weight: 600;
+  color: red;
+}
+
+header .headbar .dizaynaside ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  header .headbar .dizaynaside ul {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    padding-top: 20px;
+  }
+}
+
+header .headbar .dizaynaside ul li {
+  list-style: none;
+  padding: 0  10px;
+  cursor: pointer;
+}
+
+header .star .derssaati h3 {
+  padding-top: 50px;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+header .star .startext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 30px;
+}
+
+header .star .startext img {
+  width: 20px;
+}
+
+header .star .startext p {
+  margin: 0px;
+  padding-left: 10px;
+}
+
+header .blackborders h3 {
+  padding-top: 50px;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+header .blackborders .blackb {
+  height: 160px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 15px 30px;
+  background-color: #262626;
+  color: white;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  header .blackborders .blackb {
+    height: 190px;
+  }
+}
+
+header .blackborders .blackb li {
+  font-size: 25px;
+  line-height: 28px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+header .blackborders .blackb p {
+  opacity: .9;
+  margin: 0%;
+  font-size: 14px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

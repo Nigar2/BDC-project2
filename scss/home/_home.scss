@@ -1,0 +1,185 @@
+body{
+    @media screen and (min-width:250px) and (max-width:500px) {
+       
+        padding: 10px;
+    }
+}
+#navbar{
+    margin-top: 2%;
+
+.images{
+    height: 36px;
+    width: 107px; 
+    border-radius: 0px;
+    @media screen and (min-width:250px) and (max-width:400px) {
+        padding-left: 120px;
+    }
+}
+
+.ulstyle{
+    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+            list-style: none;
+        }
+        p{
+            padding: 0.8% 1.7%;
+            margin: 0;
+            border-radius: 15px;
+            background: #F3F3F3;
+        }
+        span{
+            background: $bodycolor;
+            border-radius: 50%;
+            padding: 0.9% 1.5%;
+        }
+    }
+
+    @media screen and (min-width:350px) and (max-width:968px) {
+        display: none;
+    }
+}
+}
+
+header{
+
+    .headbar{
+        margin: 2%;
+        padding: 20px 0;
+        background-color: #F3F3F3;
+        border-radius: 20px
+        ;
+        .intertext{
+            .interyerp{
+                padding-top: 70px;
+                font-size:50px;
+                font-weight: 700;
+                font-family: $f-family;
+                line-height: 60px;
+                @media screen and (min-width:250px) and (max-width:500px) {
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
+        }
+        .bttntext{
+            display: flex;
+            justify-content: start;
+            
+            align-items: center;
+            
+            button{
+                width: 215px;
+                height: 60px ;    
+                padding: 5px ;
+                background-color: $bodycolor;
+                font-family: $f-family;
+                font-size: 20px;
+                font-weight: 700;
+                border: none;
+                border-radius: 40px;
+                line-height: 25px;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: $textcolor;
+                }
+            }
+            .texts{
+                padding-left: 10px;
+
+                .text15{
+                    margin: 0;
+                    font-family: $f-family;
+                    opacity: .7;
+                }
+                .text30{
+                    margin: 0;
+                    font-family: $f-family;
+                    font-weight: 600;
+                    color: red;
+                }
+            }
+        }
+        
+        .dizaynaside{
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: end;
+                @media screen and (min-width:350px) and (max-width:968px) {
+                    justify-content: space-between;
+                    padding: 0;
+                    padding-top: 20px;
+                 }
+                li{
+                    list-style: none;
+                    padding: 0  10px;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }
+
+    .star{
+        .derssaati{
+            h3{
+                padding-top: 50px;
+                font-family: $f-family;
+                font-size: 40px;
+                font-weight: $f-weight;
+            }
+        }
+        .startext{
+            display: flex;
+            justify-content: start;
+            padding-top: 30px;
+           
+            img{
+                width: 20px;
+                
+            }
+            p{
+               margin: 0px;
+               padding-left: 10px; 
+            }
+        }
+    }
+
+    .blackborders{
+        h3{
+            padding-top: 50px;
+            font-family: $f-family;
+            font-size: 40px;
+            font-weight: $f-weight;
+        }
+        .blackb{
+            
+            height: 160px;
+            margin-top: 30px;
+            border-radius: 20px;
+            padding: 15px 30px;
+            background-color: $textcolor;
+            color: white;
+            @media screen and (min-width:350px) and (max-width:968px) {
+                height: 190px;
+                
+            }
+            li{
+                font-size: $f-size;
+                line-height: 28px;
+                padding: 10px;
+                font-weight: 500;
+            }
+            p{
+                opacity: .9;
+                margin: 0%;
+                font-size: 14px;
+            }
+        }
+    }
+}
