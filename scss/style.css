@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("http://fonts.cdnfonts.com/css/gotham");
 @media screen and (min-width: 250px) and (max-width: 500px) {
   body {
@@ -211,6 +212,415 @@ header .blackborders .blackb p {
   opacity: .9;
   margin: 0%;
   font-size: 14px;
+}
+
+header .slider1 {
+  padding: 30px 0;
+}
+
+header .slider1 .raboti {
+  padding-top: 50px;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+header .slider1 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+header .slider1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+header .slider1 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .slider2 .uşaqlar {
+  padding-top: 50px;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+header .slider2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+header .slider2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+header .slider2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .fidans {
+  padding: 40px 0;
+}
+
+header .fidans .swiper-slide {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 50px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #262626;
+}
+
+header .fidans .fimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gotham", sans-serif;
+  margin-bottom: 5px;
+}
+
+header .fidans .fimg img {
+  width: 40px;
+}
+
+header .fidans .fimg p {
+  padding-left: 10px;
+  margin: 0;
+}
+
+header .fidans .fimg .dizayner {
+  opacity: 0.4;
+}
+
+header .fidans .swiper-button-next, header .fidans .swiper-button-prev ::after {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  header .fidans .swiper-button-next {
+    right: 20px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  header .fidans .swiper-button-prev {
+    left: 20px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+header .residtch {
+  position: relative;
+}
+
+header .residtch .instruktor {
+  padding-top: 50px;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+header .residtch .imgteacher img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  header .residtch .residtext {
+    text-align: center;
+  }
+  header .residtch .residtext .iconr {
+    display: none;
+  }
+}
+
+header .residtch .residtext .interyert {
+  opacity: .8;
+}
+
+header .residtch .residtext .iconr {
+  width: 100%;
+}
+
+header .residtch .residtext .iconr img {
+  padding-right: 20px;
+}
+
+header .residtch .container2 {
+  position: absolute;
+  top: 540px;
+  left: 480px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  header .residtch .container2 {
+    display: none;
+  }
+}
+
+header .residtch .residbt {
+  background-color: white;
+  padding: 15px 60px;
+  border-radius: 50px;
+  border: white;
+}
+
+header .residtch .residbt a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Gotham", sans-serif;
+}
+
+header .birkard {
+  width: 96%;
+  margin: 2%;
+  background-color: #262626;
+  border-radius: 20px;
+  color: white;
+  font-family: "Gotham", sans-serif;
+}
+
+header .birkard .birimg img {
+  width: 100%;
+  height: 520px;
+}
+
+header .birkard .birtext {
+  padding: 40px;
+}
+
+header .birkard .birtext .birkart {
+  font-size: 50px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+}
+
+header .birkard .birtext .birbutton {
+  width: 230px;
+  height: 80px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #FFC700;
+  font-family: "Gotham", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+
+header .birkard .birtext .birbutton a {
+  text-decoration: none;
+  color: #262626;
+}
+
+header .endsection .endtexts .endtext1 {
+  font-size: 40px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+header .endsection .endtexts .endtext2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 25px;
+}
+
+header .terminallogo {
+  width: 100%;
+}
+
+header .terminallogo img {
+  width: 300px;
+  padding: 40px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  header .terminallogo img {
+    width: 200px;
+  }
+}
+
+#footers {
+  padding: 30px;
+  background-color: #262626;
+}
+
+#footers .signup {
+  border-radius: 20px;
+  background-color: #F3F3F3;
+}
+
+#footers .signup .signleft {
+  width: 100%;
+  padding: 40px;
+}
+
+#footers .signup .textleft {
+  font-size: 50px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .signup .textleft {
+    font-size: 37px;
+    line-height: 35px;
+  }
+}
+
+#footers .signup .textleft2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .signup .textleft2 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+#footers .signform {
+  width: 100%;
+  padding: 40px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .signform {
+    padding: 0;
+  }
+}
+
+#footers .signform input {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+}
+
+#footers .signform .comment {
+  padding-bottom: 100px;
+}
+
+#footers .signform .signbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .signform .signbutton {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #footers .signform .signbutton p {
+    padding-left: 30px;
+  }
+}
+
+#footers .footerkontakt {
+  color: white;
+  padding-top: 20px;
+}
+
+#footers .footerkontakt .phone {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .footerkontakt .phone {
+    font-size: 20px;
+  }
+}
+
+#footers .footerkontakt .phone p {
+  text-align: start;
+  padding-left: 20px;
+  margin: 0;
+}
+
+#footers .footerkontakt .melumat {
+  font-family: "Gotham", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .footerkontakt .melumat {
+    display: none;
+  }
+}
+
+#footers .footerkontakt .kontakticon {
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 968px) {
+  #footers .footerkontakt .kontakticon {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+#footers .footerkontakt .bdcfooter {
+  border-top: 1px solid white;
+}
+
+#footers .footerkontakt .bdcfooter .bdckontakt {
+  margin-top: 30px;
+}
+
+#footers .footerkontakt .bdcfooter p {
+  padding-top: 20px;
 }
 
 *, *::after, *::before {
